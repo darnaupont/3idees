@@ -1,0 +1,77 @@
+<section id="Agency">
+<div class="row">
+<article>
+	<div class="columns">	
+		<h1>Somos una agencia de Marketing y Diseño</h1>
+        <p>¿Quieres atraer más clientes? ¿Tienes un proyecto nuevo y no sabes por dónde empezar? <a href="#" class="">Entonces continúa leyendo</a> .</p>
+	</div>	
+</article>
+</div>	
+</section>
+
+<section id="how">
+<div class="row">
+<div class="columns">
+    <h2>Cómo podemos ayudarte a cumplir tus objetivos.</h2>
+    <article>
+    <div class="columns">
+        <h3>Quiénes somos y por qué podemos ayudarte.</h3>
+        <ul>
+            <li>Somos un equipo multidisciplinar de profesionales que nos encanta lo que hacemos, por esto siempre estamos al día de los últimos estudios y avances y esto nos permite trabajar a otro nivel.</li>
+            <li>Creamos páginas web altamente efectivas y no terminamos en la entrega, insistimos en la mejora contínua a través de testing A/B para sacarle el mayor provecho.</li>
+            <li>Garantizamos resultados porque utilizamos metodologías creadas y utilizadas por las mejores empresas del mundo como Google, Amazon o Facebook.</li>
+            <li>Tenemos una visión global. Hemos trabajado con clientes en 6 idiomas y en 10 países distintos.</li>
+            <li>Somos un equipo inusual: cada uno dejamos nuestras carreras profesionales tras años en agencias y grandes empresas para poder llevar a cabo nuestra propia visión: mejorar la vida de las personas ayudando a las empresas a resolver mejor las necesidades y problemas de estas.</li>
+        </ul>
+    </div>
+    </article>
+    <article>
+    <div class="columns">
+        <h3>Cómo podemos ayudarte a ganar más con tu negocio.</h3>
+        <p>Hemos generado más de 1 millón de € en ganancias para nuestros clientes utilizando la metodología de Growth Marketing. Si quieres saber cómo podemos ayudarte a conseguir tus objetivos:</p>
+        <ul>
+            <li>Visita nuestra página de Servicios.</li>
+            <li>Ponte en Contacto con nosotros.</li>
+        </ul>
+    </div>
+    </article>
+</div>
+</div>
+</section>
+
+<section id="what">
+<div class="row">
+<div class="columns">
+<h2>¿Qué podrías conseguir trabajando con nosotros?</h2>
+    <article>
+    <div class="columns">
+        <h3>La rentabilidad de nuestros clientes aumentó de media un 210% en el último año.</h3>
+        <p>Somos rentables desde el primer día gracias a que no hacemos nada sin un “porqué”. Para conseguirlo utilizamos la metodología LEAN, que se basa en satisfacer las necesidades específicas del consumidor y saber cómo hacerlo usando la cantidad mínima de dinero.</p>
+    </div>
+    </article>
+    <article>
+    <div class="columns">
+        <h3>Logramos alcanzar a más de 500.000 personas entre todas nuestras campañas de publicidad.</h3>
+        <p>El número de clientes de un negocio es el mejor indicativo de que este funciona, pero la falta de estos no significa que no pueda funcionar. Por eso es muy importante llegar a las personas adecuadas para que sepan de tu negocio y puedan convertirse en clientes.</p>
+    </div>
+    </article>
+    <article>
+    <div class="columns">
+        <h3>Menos reuniones, más trabajo.</h3>
+        <p>Gracias a que seguimos unos procesos de trabajo muy definidos no necesitamos celebrar reuniones continuamente con el cliente, esto nos supone a nosotros y a ellos un gran ahorro de tiempo que luego se nota en los plazos de entrega.</p>
+    </div>
+    </article>
+</div>
+</div>
+</section>
+<section id="callaction">
+<div class="row">
+<div class="columns">
+    <h2>¿Qué debes hacer ahora?</h2>
+    <div class="columns">
+        <p>Si quieres mejorar drásticamente tu negocio visita nuestra página de servicios y ponte en contacto con nosotros para más información.</p>
+        <a href="#" class="button">hablamos de tu proyecto?</a>
+    </div>
+</div>
+</div>
+</section>
