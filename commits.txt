@@ -1,0 +1,5 @@
+commit b2b5554429c3ff78b1851275af316e45741ab423
+Author: Damià Arnau Pont Pons <damiarnau@gmail.com>
+Date:   Thu Mar 9 01:26:21 2017 +0100
+
+    versió beta1 9/03/2017
