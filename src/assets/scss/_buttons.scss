@@ -1,4 +1,4 @@
-$gradient:  linear-gradient(to right,  $primary-color 0%, $secondary-color 100%); 
+$gradient:  linear-gradient(to left,  $primary-color 0%, $secondary-color 100%); 
 .gradient-border {
   background: $gradient;
   display: inline-block;
@@ -69,17 +69,18 @@ a span{color:$white !important; background-color:$white !important;}
 }
 
 .logo3ideeswhite{ 
-     -moz-transition: all 0.5s ease-in;
-    -o-transition: all 0.5s ease-in;
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
-
-    -moz-transition: all 2s ease-out;
-    -o-transition: all 2s ease-out;
-    -webkit-transition: all 2s ease-out;
-    transition: all 2s ease-out;
     background: transparent url(../images/logos/3ideeswhite.png) 0 0 no-repeat;
-    &:hover{ background: transparent url(../images/logos/3ideeswhite.png) 0px -51px no-repeat;}
+    &:hover{ background: transparent url(../images/logos/3ideeswhite.png) 0px -51px no-repeat;
+     -moz-transition: all 0s ease-in;
+    -o-transition: all 0s ease-in;
+    -webkit-transition: all 0s ease-in;
+    transition: all 0s ease-in;
+
+    -moz-transition: all 0s ease-out;
+    -o-transition: all 0s ease-out;
+    -webkit-transition: all 0s ease-out;
+    transition: all 0s ease-out;
+    }
     color:white;
 }
 

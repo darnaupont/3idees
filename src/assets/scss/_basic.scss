@@ -114,10 +114,14 @@ body { font-size: 0.875rem}
 .ndelay{-webkit-transition-delay: 1ms;
     transition-delay: 1ms;}
 
-.objectivesbg{background-color:#241a10 !important;}
 
-.goalsbg{background-color:#241a10 !important; }
 
-.moreworkbg{background-color:#271e1c  !important;}
+.goalsbg{background-color:#3b3735 !important; }
+
+.moreworkbg{background-color:#81e6cf  !important;}
 
 .sticky{width:100% !important; }
+
+#services .row{padding-bottom:6rem;}
+
+.fullpage{height: 100vh;}

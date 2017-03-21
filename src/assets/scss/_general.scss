@@ -1,7 +1,8 @@
-$bgopacity:0.3;
+$bgopacity:0.4;
 
 
 .footer{
+  padding-bottom:0 !important;
 	padding-top:1rem;
 	border-top:1px solid $black;
 
@@ -11,20 +12,21 @@ $bgopacity:0.3;
 
 
 
-	span {color: $primary-color;
+	span {
 	      font-weight:600;}
 
 	.gradient {
 		    display: inline-block;
 			background: #ED1E79; /* For browsers that do not support gradients */
-		    background: -webkit-linear-gradient(left top, #ED1E79, #9515b6); /* For Safari 5.1 to 6.0 */
-		    background: -o-linear-gradient(bottom right, #ED1E79, #9515b6); /* For Opera 11.1 to 12.0 */
-		    background: -moz-linear-gradient(bottom right, #ED1E79, #9515b6); /* For Firefox 3.6 to 15 */
-		    background: linear-gradient(to bottom right, #ED1E79, #9515b6);
+		    background: -webkit-linear-gradient(left top, #4ffd9f, #03a2e0); /* For Safari 5.1 to 6.0 */
+		    background: -o-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Opera 11.1 to 12.0 */
+		    background: -moz-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Firefox 3.6 to 15 */
+		    background: linear-gradient(to bottom right, #4ffd9f, #03a2e0);
 		      -webkit-background-clip: text;
 		      -webkit-text-fill-color: transparent; }
 
-    .nogradient{  
+    .nogradient{
+          font-weight:400;
 		      display: inline-block;
 		      color: $black; /*non-webkit fallback*/
 		      background: -webkit-linear-gradient(135deg, #FF9F65, #DED37E, #26BDA6);
@@ -34,7 +36,6 @@ $bgopacity:0.3;
 	.textlayer{position:relative; z-index:100; color:$white}
 
 @include breakpoint(small){
-h3{font-weight:800;}
 .margintop{margin-top:0.5rem;}
 .hola{
 	margin-top:5rem;
@@ -55,8 +56,7 @@ h3{font-weight:800;}
 }
  @include breakpoint(medium){
 
-  h1{font-weight:800;}
-  h2{font-weight: $global-weight-bold;}
+  h1{font-weight:500;}
  .margintop{margin-top:2rem;}
 	.title{
 		font-size:2.563rem;
@@ -86,11 +86,19 @@ h3{font-weight:800;}
 .textbasic{font-size:1.25rem;}
 }
 #main{
+.hero{
+background-image: url("../images/mobile/3ideesbg.svg");
+      background-repeat: no-repeat;
+background-position: right;}
 .morework{margin-bottom:0.5rem;}
  @include breakpoint(small){
   .objectives{
       position: relative;
-      background: black;
+      background: #ED1E79; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, #4ffd9f, #03a2e0); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #4ffd9f, #03a2e0);
       overflow: hidden;
    &:before {
       content: ' ';
@@ -136,7 +144,11 @@ h3{font-weight:800;}
         }
   .morework{
       position: relative;
-      background: black;
+      background: #ED1E79; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, #4ffd9f, #03a2e0); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #4ffd9f, #03a2e0);
       overflow: hidden;
    &:before {
       content: ' ';

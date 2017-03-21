@@ -1,21 +1,5 @@
 $(document).foundation();
-$(document).ready(function() {
-    $('#servicios #fullpage').fullpage({
-    navigation: true,
-    navigationPosition: 'right',
-    scrollingSpeed: 900,
-    responsiveWidth: 1100,
-    //easing: 'easeInElastic',
-    //easingcss3: 'ease',
-    //verticalCentered: true,
-    //resize: false,
-    
-    //Custom selectors
-    //sectionSelector: '.section',
-    //slideSelector: '.slide',
-    scrollOverflow: false,
-    })
-});
+
 $(document).ready(function() {
 
             $('#fullpage').fullpage({
@@ -36,7 +20,7 @@ $(document).ready(function() {
         scrollOverflow: false,
         onLeave: function(index, nextIndex, direction){
         //leaving 1st section
-        if((index == 1)||(index == 3)||(index == 5)||(index == 7)){
+        if((nextIndex == 4)||(nextIndex == 6)){
            $('.arrow-black').addClass('white');
            $('#fp-nav ul li, .fp-slidesNav ul li').addClass('dotwhite');
            $('#fp-nav ul li .fp-tooltip.right').removeClass('textblack');
@@ -46,7 +30,7 @@ $(document).ready(function() {
         }
 
         //back to the 1st section
-        if((nextIndex == 1)||(nextIndex == 3)||(nextIndex == 5)||(nextIndex == 7)||(nextIndex == 8)){
+        if((index == 4)||(index == 6)){
             $('.arrow-black').removeClass('white');
             $('#fp-nav ul li, .fp-slidesNav ul li').removeClass('dotwhite');
             $('#fp-nav ul li .fp-tooltip.right').addClass('textblack');
