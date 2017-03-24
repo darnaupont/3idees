@@ -30,7 +30,7 @@ This template can be installed manually.
 To manually set up the template, first download it with Git:
 
 ```bash
-git clone https://github.com/darnaupont/3idees.git projectfolder
+git clone https://github.com/darnaupont/3idees.git projectname
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
