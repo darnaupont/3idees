@@ -48,14 +48,6 @@ $gradient:  linear-gradient(to left,  $primary-color 0%, $secondary-color 100%);
 &:hover a span {background-color:$primary-color !important;}
 a span{color:$white !important; background-color:$white !important;}
 }
-.textwhite{color: $white !important;     -moz-transition: all 0.5s ease-in;
-    -o-transition: all 0.5s ease-in;
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;}
-.textblack{color: $black !important;    -moz-transition: all 0.5s ease-in;
-    -o-transition: all 0.5s ease-in;
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;}
 
 .logo3idees{ 
     display: block;
@@ -87,7 +79,7 @@ a span{color:$white !important; background-color:$white !important;}
 
 .logo3ideesmobil{
     position:absolute;
-    top: 0.5rem;
+    top: 1rem;
     display: block;
     z-index: 9999;
     width: 58px; 

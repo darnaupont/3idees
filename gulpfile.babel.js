@@ -145,6 +145,6 @@ function watch() {
   gulp.watch('src/assets/js/**/*.js').on('all', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));
   gulp.watch('src/assets/fonts/**/*').on('all', gulp.series(fonts, browser.reload));
-  gulp.watch('bower_components/font-awesome/fonts/*').on('all', gulp.series(fonts, browser.reload));
+  gulp.watch('bower_components/components-font-awesome/fonts/*').on('all', gulp.series(fonts, browser.reload));
   gulp.watch('src/styleguide/**').on('all', gulp.series(styleGuide, browser.reload));
 }

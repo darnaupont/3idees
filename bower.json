@@ -16,11 +16,12 @@
   ],
   "dependencies": {
     "foundation-sites": "~6.3.0",
-    "motion-ui": "~1.2.2"
+    "motion-ui": "~1.2.2",
+    "components-font-awesome": "^4.7.0",
+    "font-awesome": "fontawesome#^4.7.0"
   },
   "private": true,
   "devDependencies": {
-    "font-awesome": "^4.7.0",
-    "fullpage.js": "^2.9.3"
+    "fullpage.js": "^2.9.4"
   }
 }

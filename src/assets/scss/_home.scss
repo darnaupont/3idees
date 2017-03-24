@@ -1,0 +1,144 @@
+$bgopacity:0.4;
+
+#main{
+.hero{
+background-image: url("../images/mobile/3ideesbg.svg");
+      background-repeat: no-repeat;
+background-position: right;}
+.morework{margin-bottom:0.5rem;}
+ @include breakpoint(small){
+  .num1, .num2, .num3,.num {line-height: 1;
+      font-size: 12rem;
+      font-weight:500;
+      margin:0 0 -1rem 0rem;}
+  .num2{color:$primary-color;}
+  .num3{margin-bottom:1rem;}
+
+  .goals{
+        position: relative;
+        background: black;
+        overflow: hidden;
+     &:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: $bgopacity;
+        background-image: url('../images/mobile/3ideesbg2.jpeg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;}
+        }
+  .morework{
+      position: relative;
+      background: #ED1E79; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, #4ffd9f, #03a2e0); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #4ffd9f, #03a2e0);
+      overflow: hidden;
+   &:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0.7;
+      background-image: url('../images/mobile/3ideesbg3.jpeg');
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;}
+      }
+    }
+  @include breakpoint(medium){
+  .num1, .num2, .num3,.num {line-height: 1;
+    font-size: 15.63rem;
+    font-weight:500;
+    margin:0 0 -1rem -1rem;}
+.num2,.num3{margin-left:-0.6rem}
+.num2{color:$primary-color;}
+.num3{margin-bottom:1rem;}
+  .goals{
+        position: relative;
+        background: black;
+        overflow: hidden;
+     &:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: $bgopacity;
+        background-image: url('../images/desktop/3ideesbg2.jpeg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;}
+        }
+  .morework{
+      position: relative;
+      background: #ED1E79; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, #4ffd9f, #03a2e0); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #4ffd9f, #03a2e0);
+      overflow: hidden;
+   &:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: $bgopacity*2;
+      background-image: url('../images/desktop/3ideesbg3.jpeg');
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;}
+      }
+      
+  .textwhite{color: $white !important;     -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;}
+  .textblack{color: $black !important;    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;}
+
+  .goalsbg{background-color:#3b3735 !important; }
+
+  .moreworkbg{
+  color:#47e3fd !important;
+  background-color:#55947b  !important;}    
+  }
+  }
+
+

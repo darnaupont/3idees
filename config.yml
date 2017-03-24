@@ -26,12 +26,12 @@ PATHS:
   # Paths to Sass libraries, which can then be loaded with @import
   fonts:
     - "src/assets/fonts/*"
-    - "bower_components/font-awesome/fonts/*"
+    - "bower_components/components-font-awesome/fonts/*"
   # Paths to Sass libraries, which can then be loaded with @import
   sass:
     - "bower_components/foundation-sites/scss"
     - "bower_components/motion-ui/src"
-    - "bower_components/font-awesome/scss"
+    - "bower_components/components-font-awesome/scss"
   # Paths to JavaScript libraries, which are combined into one file
   javascript:
     # Libraries required by Foundation
