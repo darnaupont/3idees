@@ -1,4 +1,5 @@
-# ZURB Template
+# 3idees project 
+This is a project based on **ZURB Template** with **fullpage.js**
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
 
@@ -22,30 +23,14 @@ To use this template, your computer needs:
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
-
-### Using the CLI
-
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template zurb
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+This template can be installed manually.
 
 ### Manual Setup
 
 To manually set up the template, first download it with Git:
 
 ```bash
-git clone https://github.com/zurb/foundation-zurb-template projectname
+git clone https://github.com/darnaupont/3idees.git projectfolder
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
