@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
     <link rel="shortcut icon" type="image/ico" href="{{root}}assets/img/logos/favicon.ico">
+    <meta name="robots" content="nofollow,noindex"
   </head>
   <body>
-    <div class="header row">
+    <header class="header row">
        <div class="top-bar-container" data-sticky-container>
         <div class="sticky" data-sticky data-options="marginTop: 0; stickyOn: small;">
           <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
@@ -30,7 +31,7 @@
         </div>
         </div>
         </div>
-    </div>
+    </header>
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
    <div class="row footer {{display}}">
