@@ -98,11 +98,11 @@ background-position: right;}
         }
   .morework{
       position: relative;
-      background: #ED1E79; /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(left top, #4ffd9f, #03a2e0); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(bottom right, #4ffd9f, #03a2e0); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(to bottom right, #4ffd9f, #03a2e0);
+      background: $secondary-color; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, $primary-color, $secondary-color); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, $primary-color, $secondary-color); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, $primary-color, $secondary-color); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, $primary-color, $secondary-color);
       overflow: hidden;
    &:before {
       content: ' ';
@@ -124,6 +124,11 @@ background-position: right;}
       background-size: cover;}
       }
       
+  
+  }
+  }
+
+  @include breakpoint(medium){
   .textwhite{color: $white !important;     -moz-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
@@ -137,8 +142,6 @@ background-position: right;}
 
   .moreworkbg{
   color:#47e3fd !important;
-  background-color:#55947b  !important;}    
+  &:hover{color:$white !important;} 
+  background-color:#568477  !important;}  
   }
-  }
-
-

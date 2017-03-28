@@ -14,13 +14,13 @@ $gradient:  linear-gradient(to left,  $primary-color 0%, $secondary-color 100%);
   &:hover {
     background-color: $primary-color;
     background: $gradient;
-    color:white;
-    font-weight:500;
+    color:$white;
+    font-weight:600;
     cursor: pointer;
   }
 }
 }
-
+  @include breakpoint(medium){
 .arrow-black{
   position:absolute;
   z-index:200;
@@ -42,25 +42,33 @@ $gradient:  linear-gradient(to left,  $primary-color 0%, $secondary-color 100%);
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);  
   &:hover{  cursor: pointer;border-color:$primary-color;}
-    }
+    }}
 .white{border-color:$white;}
 .dotwhite{
 &:hover a span {background-color:$primary-color !important;}
 a span{color:$white !important; background-color:$white !important;}
+}
+#fp-nav ul li .fp-tooltip{color:$black !important;}
+#fp-nav ul li:hover{
+a span{background-color:$primary-color !important;}
 }
 
 .logo3idees{ 
     display: block;
     z-index: 2;
     width: 115px;
-    height: 45px;
+    height: 40px;
     margin-top: 0.2rem !important;
     background: transparent url(../images/logos/3idees.png) 0 0 no-repeat;
     text-decoration: none;
-    &:hover{ background: transparent url(../images/logos/3idees.png) 0px -52px no-repeat;}
+    &:hover{ background: transparent url(../images/logos/3idees.png) 0px -40px no-repeat;}
 }
 
 .logo3ideeswhite{ 
+    display: block;
+    z-index: 2;
+    width: 115px;
+    height: 44px;
     background: transparent url(../images/logos/3ideeswhite.png) 0 0 no-repeat;
     &:hover{ background: transparent url(../images/logos/3ideeswhite.png) 0px -51px no-repeat;
      -moz-transition: all 0s ease-in;
@@ -79,14 +87,14 @@ a span{color:$white !important; background-color:$white !important;}
 
 .logo3ideesmobil{
     position:absolute;
-    top: 1rem;
+    top: 0.6rem;
     display: block;
     z-index: 9999;
-    width: 58px; 
-    height: 18px;
+    width: 60px; 
+    height: 22px;
     background: transparent url(../images/logos/3ideesmobil.png) 0 0 no-repeat;
     text-decoration: none;
-    &:hover{ background: transparent url(../images/logos/3ideesmobil.png) 0px -17px no-repeat;}
+    &:hover{ background: transparent url(../images/logos/3ideesmobil.png) 0px -22px no-repeat;}
 }
 
 

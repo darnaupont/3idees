@@ -11,7 +11,6 @@ span {font-weight:600;}
       background: linear-gradient(to bottom right, #4ffd9f, #03a2e0);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
-
   .nogradient{
         font-weight:400;
         display: inline-block;
@@ -34,13 +33,18 @@ position:relative;
         }
 
 
-.fullpage{height: 100vh;}
+.fullpage{height: 100vh;
+          display: table;
+          table-layout: fixed;}
 
 .menu > li > a {color:$black;     -moz-transition: all 1s ease-in;
     -o-transition: all 1s ease-in;
     -webkit-transition: all 1s ease-in;
     transition: all 1s ease-in;}
-
+  @include breakpoint(small){
+  #fullpage{ 
+  .columns{padding:0.5rem;}}
+  }
   @include breakpoint(medium){ 
     #fullpage{
      position: fixed !important;
@@ -56,4 +60,4 @@ position:relative;
 .top-bar, .top-bar ul {
     background-color: transparent;
 }
-  }
+}
