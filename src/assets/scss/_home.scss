@@ -1,5 +1,4 @@
 $bgopacity:0.4;
-
 #main{
 .hero{
 background-image: url("../images/mobile/3ideesbg.svg");
@@ -13,7 +12,6 @@ background-position: right;}
       margin:0 0 -1rem 0rem;}
   .num2{color:$primary-color;}
   .num3{margin-bottom:1rem;}
-
   .goals{
         position: relative;
         background: black;
@@ -28,7 +26,7 @@ background-position: right;}
         height: 100%;
         z-index: 1;
         opacity: $bgopacity;
-        background-image: url('../images/mobile/3ideesbg2.jpeg');
+        background-image: url('../images/mobile/3ideesbg2.jpg');
         background-repeat: no-repeat;
         background-position: 50% 0;
         -ms-background-size: cover;
@@ -55,7 +53,7 @@ background-position: right;}
       height: 100%;
       z-index: 1;
       opacity: 0.7;
-      background-image: url('../images/mobile/3ideesbg3.jpeg');
+      background-image: url('../images/mobile/3ideesbg3.jpg');
       background-repeat: no-repeat;
       background-position: 50% 0;
       -ms-background-size: cover;
@@ -87,7 +85,7 @@ background-position: right;}
         height: 100%;
         z-index: 1;
         opacity: $bgopacity;
-        background-image: url('../images/desktop/3ideesbg2.jpeg');
+        background-image: url('../images/desktop/3ideesbg2.jpg');
         background-repeat: no-repeat;
         background-position: 50% 0;
         -ms-background-size: cover;
@@ -113,8 +111,8 @@ background-position: right;}
       width: 100%;
       height: 100%;
       z-index: 1;
-      opacity: $bgopacity*2;
-      background-image: url('../images/desktop/3ideesbg3.jpeg');
+      opacity: $bgopacity*1.5;
+      background-image: url('../images/desktop/3ideesbg3.jpg');
       background-repeat: no-repeat;
       background-position: 50% 0;
       -ms-background-size: cover;
@@ -123,11 +121,8 @@ background-position: right;}
       -webkit-background-size: cover;
       background-size: cover;}
       }
-
-
   }
   }
-
   @include breakpoint(medium){
   .textwhite{color: $white !important;     -moz-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
@@ -137,11 +132,9 @@ background-position: right;}
     -o-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;}
-
   .goalsbg{background-color:#3b3735 !important; }
-
   .moreworkbg{
   color:#47e3fd !important;
   &:hover{color:$white !important;}
-  background-color:#568477  !important;}
+  background-color:#1c605c  !important;}
   }
