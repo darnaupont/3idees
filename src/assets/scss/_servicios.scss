@@ -3,15 +3,12 @@
     background-color: transparent !important;
 }
   hr { height:2px;   background: $gradient;}
-  .row{padding-bottom:6rem;}
+  section{padding-bottom:2rem;}
 .servicios ul {margin-bottom:0;}
-.servicios ul li {font-weight: bold;}
-.servicios ul li ul li {
-    font-weight: normal;
-}
-.generalprova{ padding:0;p{margin-top:-2.5rem; color:red;}}
 
-}
+
+
+
 .row .row{
  margin-right: 0;
  margin-left: 0;
@@ -20,7 +17,7 @@
   .ul{line-height: 2rem;
        list-style: none !important;
 }
-  margin-top:2rem;
+  margin:2rem 0;
   .row{padding-bottom:0;}
 // tab content
 .conversion{
@@ -31,7 +28,7 @@
 }
 .baseto{position:relative;}
 .trola{position:absolute;
-  color: white;
+  color: $white;
   position: absolute;
   left: 20%;
   top: 25%;
@@ -85,8 +82,8 @@ top:1rem;}
       display: inline-block;
       width: 0.8rem;
       height: 0.8rem;
-      border-bottom: 3px solid $primary-color;
-      border-left: 3px solid $primary-color;
+      border-bottom: 3px solid $secondary-color;
+      border-left: 3px solid $secondary-color;
       -webkit-transform: rotate(-45deg);
       -moz-transform: rotate(-45deg);
       -o-transform: rotate(-45deg);
@@ -102,6 +99,28 @@ top:1rem;}
     opacity:1;
     }
 }
+h4 {
+  color:$primary-color;
+  font-weight:800;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom:2rem;
+  position: relative;
+}
+h4:before{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    bottom: 0;
+    left: 0%;
+    background: $gradient;
+}
+.tabs-left{padding:3rem 2rem;
+p{letter-spacing:1px;
+word-spacing: 5px;
+font-weight:600;}}
+.tabs-right{padding:7rem 2rem;}
 .tabs-title {
     display: inline-block;
     float:none;
@@ -126,8 +145,8 @@ top:1rem;}
     display: inline-block;
     width: 0.5rem;
     height: 0.5rem;
-    border-bottom: 3px solid $primary-color;
-    border-left: 3px solid $primary-color;
+    border-bottom: 3px solid $secondary-color;
+    border-left: 3px solid $secondary-color;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
@@ -137,8 +156,8 @@ top:1rem;}
 }}
 
 .tabs-border{
-
-  border:4px solid $primary-color;
+height:25rem;
+  border:4px solid $secondary-color;
 }
 .tabs-panel{padding:0;}
 
@@ -161,4 +180,5 @@ top:1rem;}
 
 }
 .remision{
+}
 }
