@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
     <link rel="shortcut icon" type="image/ico" href="{{root}}assets/img/logos/favicon.ico">
-    <meta name="robots" content="nofollow,noindex"
+    <meta name="{{metaName}}" content="{{metaContent}}">
   </head>
   <body>
     <header class="header row">
@@ -18,7 +18,7 @@
             <div class="top-bar-left"><a class="logo3ideesmobil" href="http://www.3idees.com"></a></div>
             <div class="top-bar-right"> <button class="menu-icon" type="button" data-toggle="main-menu"></button></div>
         </div>
-        <div class="top-bar" id="main-menu">
+        <div class="top-bar {{topBarBackgroundColor}}" id="main-menu">
         <div class="top-bar-left">
                 <a class="logo3idees show-for-medium" href="http://www.3idees.com"></a>
         </div>
@@ -38,8 +38,8 @@
             <div class="small-12 medium-6 columns">
                 <p><b><a href="http://www.3idees.com">3idees</a>&copy;</b> - 2017</p>
             </div>
-            <div class="small-12 medium-6 columns text-right" style="display:none;">
-                <a href="legal.html">aviso legal</a>
+            <div class="small-12 medium-6 columns text-right">
+                <a href="legal.html" rel="noindex,nofollow">aviso legal</a>
             </div>
         </div>
     <script src="{{root}}assets/js/app.js"></script>
