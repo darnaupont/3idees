@@ -3,6 +3,7 @@
 .top-bar, .top-bar ul {
     background-color: transparent !important;
 }
+#services-method{    padding-top: 3rem;}
   hr { height:2px;   background: $gradient;}
   section{padding-bottom:2rem;}
 .servicios ul {margin-bottom:0;}
@@ -144,7 +145,14 @@ font-weight:600;}}
 .tabs-panel{padding:0;}
 
 }
-
+.colaboradores {
+  margin-top:2rem;
+  .columns{
+  display: table;
+  a{
+  display: table-cell;
+  vertical-align: middle;}
+}}
 .box {}
 .adquisicion{
   height: 500px;

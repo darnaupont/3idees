@@ -18,7 +18,7 @@ UNCSS_OPTIONS:
 # Gulp will reference these paths when it copies files
 PATHS:
   # Path to dist folder
-  dist: "docs"  
+  dist: "docs"
   # Paths to static assets that aren't images, CSS, or JavaScript
   assets:
     - "src/assets/**/*"
@@ -63,6 +63,8 @@ PATHS:
     - "bower_components/foundation-sites/js/foundation.tooltip.js"
     - "bower_components/foundation-sites/js/foundation.zf.responsiveAccordionTabs.js"
     # Paths to your own project code are here
+    - "bower_components/cookies-eu-banner/dist/cookies-eu-banner.min.js"
+    - "bower_components/cookies-eu-banner/dist/cookies-eu-banner.js"
     - "bower_components/fullpage.js/dist/jquery.fullpage.js"
     - "src/assets/js/!(app).js"
     - "src/assets/js/app.js"
