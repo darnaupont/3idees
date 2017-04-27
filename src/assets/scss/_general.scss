@@ -61,3 +61,21 @@ position:relative;
     background-color: transparent !important;
 }
 }
+
+
+// cookies
+.cc_container {
+  background:scale-color($light-gray, $lightness: 50%) !important; 
+  color: $black !important;
+}
+.cc_container .cc_btn, .cc_container .cc_btn:visited{
+  background-color: $white !important;
+  border: 2px solid $primary-color;
+  color: $dark-gray !important;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  border-radius: 0.8rem;
+  &:hover{
+    color: $black !important;
+  }
+  }
