@@ -54,47 +54,30 @@ a span{background-color:$primary-color !important;}
 }
 
 .logo3idees{
+    transition: all 0.5s ease-in-out;
     display: block;
     z-index: 2;
-    width: 115px;
-    height: 40px;
-    margin-top: 0.2rem !important;
-    background: transparent url(../images/logos/3idees.png) 0 0 no-repeat;
-    text-decoration: none;
-    &:hover{ background: transparent url(../images/logos/3idees.png) 0px -40px no-repeat;}
-}
-
-.logo3ideeswhite{
-    display: block;
-    z-index: 2;
+    width: 80px;
+    height: 30px;
+   @include breakpoint(medium){
     width: 115px;
     height: 44px;
-    background: transparent url(../images/logos/3ideeswhite.png) 0 0 no-repeat;
-    &:hover{ background: transparent url(../images/logos/3ideeswhite.png) 0px -51px no-repeat;
-     -moz-transition: all 0s ease-in;
-    -o-transition: all 0s ease-in;
-    -webkit-transition: all 0s ease-in;
-    transition: all 0s ease-in;
-
-    -moz-transition: all 0s ease-out;
-    -o-transition: all 0s ease-out;
-    -webkit-transition: all 0s ease-out;
-    transition: all 0s ease-out;
+    }
+    background: transparent url(../images/logos/3idees.svg) no-repeat;
+    text-decoration: none;
+    &:hover{
+    transition: all 0.5s ease-in-out;
+    background: transparent url(../images/logos/3ideesblack.svg) no-repeat;
+}
+}
+@include breakpoint(medium){
+.logo3ideeswhite{
+    background: transparent url(../images/logos/3ideeswhite.svg) no-repeat;
+    &:hover{
+        background: transparent url(../images/logos/3ideeswhiteactive.svg) no-repeat;
     }
     color:white;
 }
-
-
-.logo3ideesmobil{
-    position:absolute;
-    top: 0.6rem;
-    display: block;
-    z-index: 9999;
-    width: 60px;
-    height: 22px;
-    background: transparent url(../images/logos/3ideesmobil.png) 0 0 no-repeat;
-    text-decoration: none;
-    &:hover{ background: transparent url(../images/logos/3ideesmobil.png) 0px -22px no-repeat;}
 }
 
 

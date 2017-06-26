@@ -1,4 +1,30 @@
 #services{
+  .accordion{
+    li a{ color:white;}
+ .accordion-content{}
+  .accordion-content,li,a{border-color: transparent;}}
+  .hola{
+
+        background: transparent url(../images/logos/adquisicion.svg) center top no-repeat;
+        background-size: 555px;
+  }
+  .act{
+        background: transparent url(../images/logos/activacion.svg) center top no-repeat;
+        background-size: 455px;
+  }
+  .act1{
+        background: transparent url(../images/logos/2.svg) center top no-repeat;
+        background-size: 355px;
+  }
+  .act2{
+        background: transparent url(../images/logos/3.svg) center top no-repeat;
+        background-size: 255px;
+  }
+  .act3{
+        background: transparent url(../images/logos/4.svg) center top no-repeat;
+        background-size: 152px;
+  }
+.accordion-title:active,.accordion-title:hover, .accordion-title:focus {background-color: transparent; font-weight:bold;}
   #content{}
 .top-bar, .top-bar ul {
     background-color: transparent !important;

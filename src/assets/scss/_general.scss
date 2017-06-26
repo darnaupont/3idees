@@ -1,3 +1,55 @@
+#barraaceptacion {
+    display:none;
+    position:relative;
+    left:0px;
+    right:0px;
+    top:0px;
+    padding-bottom:20px;
+    width:100%;
+    text-align:center;
+    min-height: 160px;
+    @include breakpoint(medium){
+    min-height:65px;
+    }
+    background-color: $light-gray;
+    color: $black;
+    z-index:99999;
+    border-bottom: 1px solid $dark-gray;
+}
+
+.inner {
+    width:100%;
+    position:absolute;
+    padding-left:5px;
+    font-family:verdana;
+    font-size:12px;
+    top:10px;
+}
+.innertext{
+text-align: left;
+float: left;
+width: 80%;
+}
+.inner a.ok {
+    letter-spacing: 1px;
+    margin-top: 2px;
+    text-align:center;
+    background-color:$white;
+    color:$primary-color;
+    border-radius:0.5rem;
+    border: 2px solid $primary-color;
+    &:hover{background-color:$primary-color;
+      color:$white;
+      border-color: scale-color($primary-color, $lightness: -10%);
+}
+}
+
+.inner a.info {
+    padding-left:5px;
+    text-decoration:none;
+    color: $primary-color;
+}
+
 .sticky{width:100% !important; }
 
 span {font-weight:600;}
@@ -65,7 +117,7 @@ position:relative;
 
 // cookies
 .cc_container {
-  background:scale-color($light-gray, $lightness: 50%) !important; 
+  background:scale-color($light-gray, $lightness: 50%) !important;
   color: $black !important;
 }
 .cc_container .cc_btn, .cc_container .cc_btn:visited{
